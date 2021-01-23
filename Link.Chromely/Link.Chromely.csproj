@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <RootNamespace>Link.Chromely</RootNamespace>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PackageId>Link</PackageId>
+	<RepositoryUrl>https://github.com/uCsharp/Link</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Chromely" Version="5.0.77" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="app\chromely.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+</Project>

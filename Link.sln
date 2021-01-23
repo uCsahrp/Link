@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Li
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.Chromely.Vue\Link.Chromely.Vue.csproj", "{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely", "Link.Chromely\Link.Chromely.csproj", "{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,14 @@ Global
 		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|Any CPU.ActiveCfg = Release|x64
 		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|x64.ActiveCfg = Release|x64
 		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|x64.Build.0 = Release|x64
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|x64.ActiveCfg = Debug|x64
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|x64.Build.0 = Debug|x64
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Release|x64.ActiveCfg = Release|x64
+		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
