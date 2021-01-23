@@ -1,12 +1,13 @@
-name: .NET Core
+name: .NET Core Desktop
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 
 jobs:
+
   build:
 
     runs-on: windows-latest # For a list of available runner types, refer to
