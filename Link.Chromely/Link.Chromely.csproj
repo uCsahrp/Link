@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>Link.Chromely</RootNamespace>
+    <RootNamespace>Link</RootNamespace>
     <Platforms>AnyCPU;x64</Platforms>
     <PackageId>Link</PackageId>
 	<RepositoryUrl>https://github.com/uCsahrp/Link</RepositoryUrl>
