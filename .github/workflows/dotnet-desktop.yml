@@ -44,7 +44,7 @@ jobs:
         NUGET_AUTH_TOKEN: ${{ github.token }}
     
     - name: Build
-      run: msbuild /t:Pack /p:Configuration=Debug ChromelyActions/ChromelyActions.csproj
+      run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely.Vue/Link.Chromely.Vue.csproj
     
     - name: Copy
       run: copy ChromelyActions/bin/Debug/*.nupkg .
