@@ -6,7 +6,7 @@
     <RootNamespace>Link.Chromely</RootNamespace>
     <Platforms>AnyCPU;x64</Platforms>
     <PackageId>Link</PackageId>
-	<RepositoryUrl>https://github.com/uCsharp/Link</RepositoryUrl>
+	<RepositoryUrl>https://github.com/uCsahrp/Link</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
