@@ -46,14 +46,14 @@ jobs:
     - name: Build
       run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely/Link.Chromely.csproj
     
-    # - name: Copy
-    #   run: copy Link.Chromely/bin/Debug/*.nupkg .
+    - name: Copy
+      run: copy Link.Chromely/bin/Debug/*.nupkg .
     
     # - name: PushNuget
     #   run: dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.PUBLISH_TO_NUGET_ORG }} --skip-duplicate
 
-    # - name: PushGithub
-    #   run: dotnet nuget push *.nupkg --no-symbols --skip-duplicate
-    #   env:
-    #     NUGET_AUTH_TOKEN: ${{ github.token }}
+    - name: PushGithub
+      run: dotnet nuget push *.nupkg --no-symbols --skip-duplicate
+      env:
+        NUGET_AUTH_TOKEN: ${{ github.token }}
     
