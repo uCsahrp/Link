@@ -11,6 +11,8 @@
      <ApplicationIcon>link.ico</ApplicationIcon>
     <AssemblyName>chromely_vue</AssemblyName>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	<PackageId>Link</PackageId>
+    <RepositoryUrl>https://github.com/Apter-X/Chromely-Actions</RepositoryUrl>
     <ApplicationIcon />
     <StartupObject />
   </PropertyGroup>
