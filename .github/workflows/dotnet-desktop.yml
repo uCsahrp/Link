@@ -33,16 +33,16 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.1
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-
-    # Execute all unit tests in the solution
-    # - name: Execute unit tests
-    #   run: dotnet test
     
     - name: Install dependencies
       run: msbuild /t:Restore
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
     
+    # Execute all unit tests in the solution
+    - name: Execute unit tests
+      run: dotnet test
+
     - name: Build
       run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely.Vue/Link.Chromely.Vue.csproj
     
