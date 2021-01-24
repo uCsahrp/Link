@@ -9,7 +9,7 @@
             <sidebar>
                 <div class="logo">Link</div>
                 <div class="avatar">
-                    <div class="avatar__img">
+                    <div class="avatar__img" href="#">
                         <img src="https://picsum.photos/70" alt="avatar">
                     </div>
                     <div class="avatar__name">John Smith</div>
@@ -25,13 +25,13 @@
                         <i class="menu__icon fa fa-envelope"></i>
                         <span class="menu__text">messages</span>
                     </a>
-                    <a class="menu__item">
+                    <a class="menu__item" href="#">
                         <router-link to="/todolist">
                             <i class="menu__icon fa fa-list"></i>
                             <span class="menu__text">checklist</span>
                         </router-link>
                     </a>
-                    <a class="menu__item">
+                    <a class="menu__item" href="#">
                         <router-link to="/calendar">
                             <i class="menu__icon fa fa-calendar"></i>
                             <span class="menu__text">calendar</span>
