@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.Chromely.Vue\Link.Chromely.Vue.csproj", "{7E815BB4-E621-492D-8601-ACE1DB49FCEC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely", "Link.Chromely\Link.Chromely.csproj", "{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.Chromely.Vue\Link.Chromely.Vue.csproj", "{7E815BB4-E621-492D-8601-ACE1DB49FCEC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Link.Database", "Link.Database\Link.Database.sqlproj", "{548B9697-1CD7-4E54-ADDB-2AD03254CAF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
