@@ -9,7 +9,7 @@
 /* Montserrat regular */
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Medium.ttf");
+    src: url("/assets/fonts/Montserrat/Montserrat-Medium.ttf");
     font-weight: 400;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 /* Montserrat bold */
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-SemiBold.ttf");
+    src: url("/assets/fonts/Montserrat/Montserrat-SemiBold.ttf");
     font-weight: 500;
     font-style: normal;
 }
@@ -25,7 +25,7 @@
 /* Montserrat light */
 @font-face {
     font-family: "Montserrat";
-    src: url("/fonts/Montserrat/Montserrat-Light.ttf");
+    src: url("/assets/fonts/Montserrat/Montserrat-Light.ttf");
     font-weight: 100;
     font-style: normal;
 }
