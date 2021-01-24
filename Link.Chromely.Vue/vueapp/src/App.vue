@@ -46,7 +46,7 @@
                         <span class="menu__text">setting</span>
                     </a>
                 </nav>
-                <div class="copyright">copyright &copy; 2021</div>
+                <div class="copyright">A1 copyright &copy; 2021</div>
             </sidebar>
 
             <!-- Links -->
@@ -105,20 +105,6 @@ export default class App extends Vue {
 </script>
 
 <style>
-.navbar {
-    background:none;
-    box-shadow: none;
-  }
-  .navbar-brand
-  {
-    font-family: 'Palatino';
-    font-style: italic;
-    color:grey;
-    font-size: 30px;
-    margin: 0px;
-  }
-  iframe, object, embed {
-      max-width: 100%;
-  }
+
 </style>
 
