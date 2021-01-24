@@ -15,9 +15,11 @@
                     <div class="avatar__name">John Smith</div>
                 </div>
                 <nav class="menu">
-                    <a class="menu__item" href="#">
-                        <i class="menu__icon fa fa-home"></i>
-                        <span class="menu__text">overview</span>
+                    <a class="menu__item menu__item--active" href="#">
+                        <router-link to="/">
+                            <i class="menu__icon fa fa-home"></i>
+                            <span class="menu__text">overview</span>
+                        </router-link>
                     </a>
                     <a class="menu__item" href="#">
                         <i class="menu__icon fa fa-envelope"></i>
@@ -29,15 +31,17 @@
                             <span class="menu__text">checklist</span>
                         </router-link>
                     </a>
-                    <a class="menu__item menu__item--active">
+                    <a class="menu__item">
                         <router-link to="/calendar">
                             <i class="menu__icon fa fa-calendar"></i>
                             <span class="menu__text">calendar</span>
                         </router-link>
                     </a>
                     <a class="menu__item" href="#">
-                        <i class="menu__icon fa fa-bar-chart"></i>
-                        <span class="menu__text">goals</span>
+                        <router-link to="/ajax">
+                            <i class="menu__icon fa fa-users"></i>
+                            <span class="menu__text">Learners</span>
+                        </router-link>
                     </a>
                     <a class="menu__item" href="#">
                         <i class="menu__icon fa fa-trophy"></i>
