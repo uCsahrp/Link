@@ -44,7 +44,7 @@ jobs:
       run: dotnet test
 
     - name: Build
-      run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely/Link.Chromely.Vue.csproj
+      run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely.Vue/Link.Chromely.Vue.csproj
     
     - name: Copy
       run: copy Link.Chromely.Vue/bin/Debug/*.nupkg .
