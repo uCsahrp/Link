@@ -3,7 +3,7 @@
 	  <div class="container-fluid">
           
           <div class="row col-12 justify-content-center">
-                  <div class="col-8">
+                  <div class="col-12">
                           <div class="input-group">
                               <div class="input-group-prepend">
                                   <span class="input-group-text">
@@ -20,7 +20,7 @@
 
         <!-- TODO Items List ---------- --> 
             <div class="row col-12 justify-content-center">
-              <div class="col-8">
+              <div class="col-12">
                 <ul class="list-group">
 		
                   <div  v-for="item in todoItemsList" :key="item.Id">
@@ -39,7 +39,7 @@
         <!-- End TODO Items List ---------- --> 
 
           <div class="row col-12 justify-content-center">
-                  <div class="col-8">
+                  <div class="col-12">
                           <ul class="list-group">
                             <li class="list-group-item d-flex justify-content-between align-items-center">
                             <label>Chromely TODO List</label>
