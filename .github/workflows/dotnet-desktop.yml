@@ -45,7 +45,7 @@ jobs:
 
     - name: Build
       run: |
-        dotnet restore
+        dotnet restore Link.Chromely.Vue.csproj
         msbuild /t:Pack /p:Configuration=Debug Link.Chromely.Vue/Link.Chromely.Vue.csproj
     
     - name: Copy
