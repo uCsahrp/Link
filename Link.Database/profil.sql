@@ -4,5 +4,6 @@
     [nom] VARCHAR(50) NOT NULL, 
     [prenom] VARCHAR(50) NOT NULL, 
     [adresse] VARCHAR(255) NOT NULL, 
-    [naissance] DATE NOT NULL
+    [naissance] DATE NOT NULL,
+    [timestamp] TIME NOT NULL
 )

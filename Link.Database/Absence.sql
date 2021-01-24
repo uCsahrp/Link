@@ -1,6 +1,9 @@
 ﻿CREATE TABLE [dbo].[Absence]
 (
 	[Id] INT NOT NULL PRIMARY KEY, 
-    [Duree] INT NOT NULL, 
-    [Justification] BIT NOT NULL
+    [start_at] TIME(0) NOT NULL, 
+    [end_at] TIME(0) NOT NULL,
+    [Justification] BIT NOT NULL,
+    [timestamp] TIME NOT NULL
+
 )

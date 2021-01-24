@@ -5,5 +5,6 @@
     [subject] NCHAR(10) NOT NULL, 
     [start_at] TIME(0) NOT NULL, 
     [end_at] TIME(0) NOT NULL, 
+    [timestamp] TIME NOT NULL,
     PRIMARY KEY ([Id])
 )
