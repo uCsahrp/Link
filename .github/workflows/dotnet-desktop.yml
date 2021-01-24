@@ -44,10 +44,10 @@ jobs:
       run: dotnet test
 
     - name: Build
-      run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely/Link.Chromely.csproj
+      run: msbuild /t:Pack /p:Configuration=Debug Link.Chromely/Link.Chromely.Vue.csproj
     
     - name: Copy
-      run: copy Link.Chromely/bin/Debug/*.nupkg .
+      run: copy Link.Chromely.Vue/bin/Debug/*.nupkg .
     
     # - name: PushNuget
     #   run: dotnet nuget push *.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.PUBLISH_TO_NUGET_ORG }} --skip-duplicate
