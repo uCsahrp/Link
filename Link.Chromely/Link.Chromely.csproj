@@ -1,12 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.0</TargetFramework>
-    <RootNamespace>Link</RootNamespace>
+    <RootNamespace>Link.Chromely</RootNamespace>
     <Platforms>AnyCPU;x64</Platforms>
-    <PackageId>Link</PackageId>
-	<RepositoryUrl>https://github.com/uCsahrp/Link</RepositoryUrl>
+	  <Version>1.0.0</Version>
+	  <Authors>Apter-X</Authors>
+	  <PackageId>Link.Chromely</PackageId>
+	  <RepositoryUrl>https://github.com/uCsahrp/Link</RepositoryUrl>
+      <ApplicationIcon>link.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>AnyCPU</PlatformTarget>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,6 +22,12 @@
 
   <ItemGroup>
     <None Update="app\chromely.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\fonts\font-awesome-4.7.0\css\font-awesome.min.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

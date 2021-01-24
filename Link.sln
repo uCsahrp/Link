@@ -5,8 +5,6 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.Chromely.Vue\Link.Chromely.Vue.csproj", "{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely", "Link.Chromely\Link.Chromely.csproj", "{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}"
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Link.Database", "Link.Database\Link.Database.sqlproj", "{548B9697-1CD7-4E54-ADDB-2AD03254CAF4}"
@@ -27,12 +25,6 @@ Global
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|x64.ActiveCfg = Release|Any CPU
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|x64.Build.0 = Release|Any CPU
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Debug|x64.ActiveCfg = Debug|x64
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Debug|x64.Build.0 = Debug|x64
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|Any CPU.ActiveCfg = Release|x64
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|x64.ActiveCfg = Release|x64
-		{48ED9DEA-D2ED-498C-A363-B32C4D32C25A}.Release|x64.Build.0 = Release|x64
 		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DE2FF28-0391-4F67-BB74-BAC2B4EB6D36}.Debug|x64.ActiveCfg = Debug|x64
