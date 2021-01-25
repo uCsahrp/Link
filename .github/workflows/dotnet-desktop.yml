@@ -41,7 +41,9 @@ jobs:
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
-      run: dotnet test
+      run: |
+        dotnet restore Link.Database/Link.Database.csproj
+        dotnet test
 
     - name: Build
       run: |
