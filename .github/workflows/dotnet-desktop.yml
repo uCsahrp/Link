@@ -30,7 +30,7 @@ jobs:
     
     # Add  MSBuild to the PATH: https://github.com/microsoft/setup-msbuild
     - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.0.1
+      uses: microsoft/setup-msbuild@v1.11.1
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     
@@ -41,7 +41,9 @@ jobs:
 
     # Publish Database
     - name: Publish database
-      uses: msbuild /t:Publish /p:SqlPublishProfilePath=nw-sqlproj.pblish.xml
+      uses: msbuild /t:Publish /p:SqlPublish ProfilePath=nw-sqlproj.pblish.xml
+      env:
+        NUGET_AUTH_TOKEN: ${{ github.token }}
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
