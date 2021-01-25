@@ -1,11 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
-  <Target Name="PreBuildEvent" AfterTargets="PrepareForBuild">
-      <Exec WorkingDirectory="$(OutDir)" Command="calc.exe" />
-  </Target>
   <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <!-- <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration> -->
+    <!-- <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform> -->
     <Name>Link.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
