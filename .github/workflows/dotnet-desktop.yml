@@ -33,15 +33,20 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.1
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+
+    #  Add SqlProj package
+    - name: Install sqlproj package
+      uses: dotnet add package MSBuild.Sdk.SqlProj --version 1.11.1
+      with:
+        source-url: https://nuget.pkg.github.com/${{ github.repository_owner }}/index.json
+        env:
+            NUGET_AUTH_TOKEN: '%NUGET_AUTH_TOKEN%'
+            ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
     
     - name: Install dependencies
       run: msbuild /t:Restore
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
-
-    # Publish Database
-    - name: Install sqlproj package
-      uses: dotnet add package MSBuild.Sdk.SqlProj --version 1.11.1
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
