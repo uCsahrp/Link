@@ -38,6 +38,10 @@ jobs:
       run: msbuild /t:Restore
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
+
+    # Publish Database
+    - name: Publish database
+      uses: msbuild /t:Publish /p:SqlPublishProfilePath="myPublishFile.publish.xml" "Link.Database\Link.Database.sqlproj"
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
