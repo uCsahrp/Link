@@ -40,8 +40,8 @@ jobs:
         NUGET_AUTH_TOKEN: ${{ github.token }}
 
     # Publish Database
-    - name: Publish database
-      uses: msbuild /t:Publish /p:SqlPublishProfilePath="myPublishFile.publish.xml" "Link.Database\Link.Database.sqlproj"
+    - name: Install sqlproj package
+      uses: Install-Package MSBuild.Sdk.SqlProj -Version 1.11.1
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
