@@ -41,7 +41,9 @@ jobs:
 
     # Publish Database
     - name: Publish database
-      uses: msbuild /t:Publish /p:SqlPublishProfilePath=nw-sqlproj.pblish.xml
+      uses: |
+        ./.github/database
+        msbuild /t:Publish /p:SqlPublishProfilePath=nw-sqlproj.pblish.xml
       env:
         NUGET_AUTH_TOKEN: ${{ github.token }}
     
