@@ -41,7 +41,7 @@ jobs:
 
     # Publish Database
     - name: Install sqlproj package
-      uses: Install-Package MSBuild.Sdk.SqlProj -Version 1.11.1
+      uses: dotnet add package MSBuild.Sdk.SqlProj --version 1.11.1
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
