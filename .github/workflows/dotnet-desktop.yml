@@ -33,6 +33,11 @@ jobs:
       uses: microsoft/setup-msbuild@v1.0.1
       env:
         ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
+    
+    - name: Install dependencies
+      run: msbuild /t:Restore
+      env:
+        NUGET_AUTH_TOKEN: ${{ github.token }}
 
     #  Add SqlProj package
     - name: Install sqlproj package
@@ -42,11 +47,6 @@ jobs:
         env:
             NUGET_AUTH_TOKEN: '%NUGET_AUTH_TOKEN%'
             ACTIONS_ALLOW_UNSECURE_COMMANDS: 'true'
-    
-    - name: Install dependencies
-      run: msbuild /t:Restore
-      env:
-        NUGET_AUTH_TOKEN: ${{ github.token }}
     
     # Execute all unit tests in the solution
     - name: Execute unit tests
