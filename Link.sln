@@ -9,10 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Li
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
-		Release|Any CPU = Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
 		Release|x64 = Release|x64
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7E815BB4-E621-492D-8601-ACE1DB49FCEC}.Debug|Any CPU.ActiveCfg = Debug|x64
