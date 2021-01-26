@@ -44,10 +44,13 @@
     <None Update="link.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="vueapp\public\assets\fonts\font-awesome-4.7.0\css\font-awesome.min.css">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
+
+    <ItemGroup>
+	    <Content Include="app\public\assets\**\*.*">
+		    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	    </Content>
+    </ItemGroup>
 
   <Target Name="DependsOn" DependsOnTargets="ValidateChromelyApp">
     <Message Text="Target : DependsOn" />
