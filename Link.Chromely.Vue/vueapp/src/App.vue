@@ -29,14 +29,14 @@
                             <b class="logo-icon p-l-10">
                                 <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                                 <!-- Dark Logo icon -->
-                                <img src="" alt="homepage" class="light-logo" />
+                                <img src="../public/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
 
                             </b>
                             <!--End Logo icon -->
                             <!-- Logo text -->
                             <span class="logo-text">
                                 <!-- dark Logo text -->
-                                <img src="" alt="homepage" class="light-logo" />
+                                <img src="../public/assets/images/logo-text.png" alt="homepage" class="light-logo" />
 
                             </span>
                             <!-- Logo icon -->
@@ -173,7 +173,7 @@
                             <!-- User profile and search -->
                             <!-- ============================================================== -->
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="" alt="user" class="rounded-circle" width="31"></a>
+                                <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../public/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
                                 <div class="dropdown-menu dropdown-menu-right user-dd animated">
                                     <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
                                     <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
@@ -182,8 +182,6 @@
                                     <a class="dropdown-item" href="javascript:void(0)"><i class="ti-settings m-r-5 m-l-5"></i> Account Setting</a>
                                     <div class="dropdown-divider"></div>
                                     <a class="dropdown-item" href="javascript:void(0)"><i class="fa fa-power-off m-r-5 m-l-5"></i> Logout</a>
-                                    <div class="dropdown-divider"></div>
-                                    <div class="p-l-30 p-10"><a href="javascript:void(0)" class="btn btn-sm btn-success btn-rounded">View Profile</a></div>
                                 </div>
                             </li>
                             <!-- ============================================================== -->
@@ -206,10 +204,8 @@
                     <nav class="sidebar-nav">
                         <ul id="sidebarnav" class="p-t-30">
                             <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="index.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
-                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Charts</span></a></li>
-                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="widgets.html" aria-expanded="false"><i class="mdi mdi-chart-bubble"></i><span class="hide-menu">Widgets</span></a></li>
+                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="charts.html" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Analytics</span></a></li>
                             <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="tables.html" aria-expanded="false"><i class="mdi mdi-border-inside"></i><span class="hide-menu">Tables</span></a></li>
-                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="grid.html" aria-expanded="false"><i class="mdi mdi-blur-linear"></i><span class="hide-menu">Full Width</span></a></li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-receipt"></i><span class="hide-menu">Forms </span></a>
                                 <ul aria-expanded="false" class="collapse  first-level">
@@ -217,39 +213,20 @@
                                     <li class="sidebar-item"><a href="form-wizard.html" class="sidebar-link"><i class="mdi mdi-note-plus"></i><span class="hide-menu"> Form Wizard </span></a></li>
                                 </ul>
                             </li>
-                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-buttons.html" aria-expanded="false"><i class="mdi mdi-relative-scale"></i><span class="hide-menu">Buttons</span></a></li>
                             <li class="sidebar-item">
-                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Icons </span></a>
+                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Learners </span></a>
                                 <ul aria-expanded="false" class="collapse  first-level">
-                                    <li class="sidebar-item"><a href="icon-material.html" class="sidebar-link"><i class="mdi mdi-emoticon"></i><span class="hide-menu"> Material Icons </span></a></li>
-                                    <li class="sidebar-item"><a href="icon-fontawesome.html" class="sidebar-link"><i class="mdi mdi-emoticon-cool"></i><span class="hide-menu"> Font Awesome Icons </span></a></li>
+                                    <li class="sidebar-item"><a href="icon-material.html" class="sidebar-link"><i class="mdi mdi-emoticon"></i><span class="hide-menu"> Class I </span></a></li>
+                                    <li class="sidebar-item"><a href="icon-fontawesome.html" class="sidebar-link"><i class="mdi mdi-emoticon-cool"></i><span class="hide-menu"> Class II </span></a></li>
                                 </ul>
                             </li>
-                            <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="pages-elements.html" aria-expanded="false"><i class="mdi mdi-pencil"></i><span class="hide-menu">Elements</span></a></li>
                             <li class="sidebar-item">
                                 <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
                                 <ul aria-expanded="false" class="collapse  first-level">
-                                    <li class="sidebar-item"><a href="index2.html" class="sidebar-link"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu"> Dashboard-2 </span></a></li>
                                     <li class="sidebar-item"><a href="pages-gallery.html" class="sidebar-link"><i class="mdi mdi-multiplication-box"></i><span class="hide-menu"> Gallery </span></a></li>
                                     <li class="sidebar-item"><a href="pages-calendar.html" class="sidebar-link"><i class="mdi mdi-calendar-check"></i><span class="hide-menu"> Calendar </span></a></li>
                                     <li class="sidebar-item"><a href="pages-invoice.html" class="sidebar-link"><i class="mdi mdi-bulletin-board"></i><span class="hide-menu"> Invoice </span></a></li>
                                     <li class="sidebar-item"><a href="pages-chat.html" class="sidebar-link"><i class="mdi mdi-message-outline"></i><span class="hide-menu"> Chat Option </span></a></li>
-                                </ul>
-                            </li>
-                            <li class="sidebar-item">
-                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-account-key"></i><span class="hide-menu">Authentication </span></a>
-                                <ul aria-expanded="false" class="collapse  first-level">
-                                    <li class="sidebar-item"><a href="authentication-login.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Login </span></a></li>
-                                    <li class="sidebar-item"><a href="authentication-register.html" class="sidebar-link"><i class="mdi mdi-all-inclusive"></i><span class="hide-menu"> Register </span></a></li>
-                                </ul>
-                            </li>
-                            <li class="sidebar-item">
-                                <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-alert"></i><span class="hide-menu">Errors </span></a>
-                                <ul aria-expanded="false" class="collapse  first-level">
-                                    <li class="sidebar-item"><a href="error-403.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 403 </span></a></li>
-                                    <li class="sidebar-item"><a href="error-404.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 404 </span></a></li>
-                                    <li class="sidebar-item"><a href="error-405.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 405 </span></a></li>
-                                    <li class="sidebar-item"><a href="error-500.html" class="sidebar-link"><i class="mdi mdi-alert-octagon"></i><span class="hide-menu"> Error 500 </span></a></li>
                                 </ul>
                             </li>
                         </ul>
@@ -291,7 +268,7 @@
                 <!-- footer -->
                 <!-- ============================================================== -->
                 <footer class="footer text-center">
-                    All Rights Reserved by Matrix-admin. Designed and Developed by <a href="https://wrappixel.com">WrapPixel</a>.
+                    All Rights Reserved by <a href="https://github.com/uCsahrp/Link">Link</a>.
                 </footer>
                 <!-- ============================================================== -->
                 <!-- End footer -->
@@ -307,7 +284,7 @@
         <!-- ============================================================== -->
         <!-- All Jquery -->
         <!-- ============================================================== -->
-        <!-- this page js -->
+        <!-- calendar -->
         <script src="./assets/libs/moment/min/moment.min.js" type="application/javascript"></script>
         <script src="./assets/libs/fullcalendar/dist/fullcalendar.min.js" type="application/javascript"></script>
         <script src="./dist/js/pages/calendar/cal-init.js" type="application/javascript"></script>
@@ -326,48 +303,6 @@ export default {
   //   let externalScript = document.createElement('script')
   //   externalScript.setAttribute('src', './assets/libs/jquery/dist/jquery.min.js')
   //   document.head.appendChild(externalScript)
-  //   let externalScript2 = document.createElement('script')
-  //   externalScript2.setAttribute('src', './dist/js/jquery.ui.touch-punch-improved.js')
-  //   document.head.appendChild(externalScript2)
-  //   let externalScript3 = document.createElement('script')
-  //   externalScript3.setAttribute('src', './dist/js/jquery-ui.min.js')
-  //   document.head.appendChild(externalScript3)
-  //   // Bootstrap tether Core JavaScript
-  //   let externalScript4 = document.createElement('script')
-  //   externalScript4.setAttribute('src', './assets/libs/popper.js/dist/umd/popper.min.js')
-  //   document.head.appendChild(externalScript4)
-  //   let externalScript5 = document.createElement('script')
-  //   externalScript5.setAttribute('src', './assets/libs/bootstrap/dist/js/bootstrap.min.js')
-  //   document.head.appendChild(externalScript5)
-  //   // slimscrollbar scrollbar JavaScript
-  //   let externalScript6 = document.createElement('script')
-  //   externalScript6.setAttribute('src', './assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js')
-  //   document.head.appendChild(externalScript6)
-  //   let externalScript7 = document.createElement('script')
-  //   externalScript7.setAttribute('src', './assets/extra-libs/sparkline/sparkline.js')
-  //   document.head.appendChild(externalScript7)
-  //   // Wave Effects
-  //   let externalScript8 = document.createElement('script')
-  //   externalScript8.setAttribute('src', './dist/js/waves.js')
-  //   document.head.appendChild(externalScript8)
-  //   // Menu sidebar
-  //   let externalScript9 = document.createElement('script')
-  //   externalScript9.setAttribute('src', './dist/js/sidebarmenu.js')
-  //   document.head.appendChild(externalScript9)
-  //   // Custom JavaScript
-  //   let externalScript10 = document.createElement('script')
-  //   externalScript10.setAttribute('src', './dist/js/custom.min.js')
-  //   document.head.appendChild(externalScript10)
-  //   // this page js
-  //   let externalScript11 = document.createElement('script')
-  //   externalScript11.setAttribute('src', './assets/libs/moment/min/moment.min.js')
-  //   document.head.appendChild(externalScript11)
-  //   let externalScript12 = document.createElement('script')
-  //   externalScript12.setAttribute('src', './assets/libs/fullcalendar/dist/fullcalendar.min.js')
-  //   document.head.appendChild(externalScript12)
-  //   let externalScript13 = document.createElement('script')
-  //   externalScript13.setAttribute('src', './dist/js/pages/calendar/cal-init.js')
-  //   document.head.appendChild(externalScript13)
   // }
 }
 </script>
