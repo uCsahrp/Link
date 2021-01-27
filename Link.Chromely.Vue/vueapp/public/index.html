@@ -1,21 +1,47 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicon icon -->
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/styles.css">
-    <link rel="stylesheet" href="./assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-    <script src="./assets/js/jquery.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <title>Link</title>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <!-- Custom CSS -->
+    <link href="./assets/libs/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet" />
+    <link href="./assets/extra-libs/calendar/calendar.css" rel="stylesheet" />
+    <link href="./dist/css/style.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="./assets/libs/jquery/dist/jquery.min.js" type="application/javascript"></script>
+    <script src="./dist/js/jquery.ui.touch-punch-improved.js" type="application/javascript"></script>
+    <script src="./dist/js/jquery-ui.min.js" type="application/javascript"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="./assets/libs/popper.js/dist/umd/popper.min.js" type="application/javascript"></script>
+    <script src="./assets/libs/bootstrap/dist/js/bootstrap.min.js" type="application/javascript"></script>
+    <!-- slimscrollbar scrollbar JavaScript -->
+    <script src="./assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js" type="application/javascript"></script>
+    <script src="./assets/extra-libs/sparkline/sparkline.js" type="application/javascript"></script>
+    <!--Wave Effects -->
+    <script src="./dist/js/waves.js" type="application/javascript"></script>
+    <!--Menu sidebar -->
+    <script src="./dist/js/sidebarmenu.js" type="application/javascript"></script>
+    <!--Custom JavaScript -->
+    <script src="./dist/js/custom.min.js" type="application/javascript"></script>
 </head>
   <body>
     <noscript>
-      <strong>We're sorry but vueapp doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
