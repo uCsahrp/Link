@@ -212,7 +212,7 @@
                                 <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
                                 <ul aria-expanded="false" class="collapse  first-level">
                                     <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="mdi mdi-cloud"></i><span class="hide-menu"> Cloud </span></a></li>
-                                    <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="mdi mdi-camcorder-box"></i><span class="hide-menu"> Live </span></a></li>
+                                    <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="mdi mdi-camcorder"></i><span class="hide-menu"> Live </span></a></li>
                                     <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="mdi mdi-multiplication-box"></i><span class="hide-menu"> Gallery </span></a></li>
                                     <li class="sidebar-item"><a href="#" class="sidebar-link"><i class="mdi mdi-pencil"></i><span class="hide-menu"> Quizz </span></a></li>
                                 </ul>
