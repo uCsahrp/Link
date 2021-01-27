@@ -1,14 +1,14 @@
 <template>
     <!-- ============================================================== -->
-    <!-- Container fluid  -->
+    <!-- Calendar Component -->
     <!-- ============================================================== -->
-    <div class="container-fluid">
+    <div id="app">
         <!-- ============================================================== -->
         <!-- Start Page Content -->
         <!-- ============================================================== -->
         <div class="row">
             <div class="col-md-12">
-                <div class="card">
+                <div class="card unmarg-bot">
                     <div class="">
                         <div class="row">
                             <div class="col-lg-3 border-right p-r-0">
@@ -114,5 +114,10 @@ export default {
   name: 'Calendar'
 }
 
-
 </script>
+
+<style>
+    .unmarg-bot {
+        margin-bottom: 0;
+    }
+</style>
