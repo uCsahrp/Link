@@ -225,7 +225,7 @@
                         <!-- ============================================================== -->
                         <!-- footer -->
                         <!-- ============================================================== -->
-                        <footer class="footer text-center fixed-bottom">
+                        <footer class="footer text-center bot">
                             All Rights Reserved by <a href="https://github.com/uCsahrp/Link">Link</a>.
                         </footer>
                         <!-- ============================================================== -->
@@ -279,5 +279,8 @@ export default {
 </script>
 
 <style>
-
+    .bot {
+        position: absolute;
+        bottom: 0;
+    }
 </style>
