@@ -7,12 +7,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsLibrary", "ModelsLibrary\ModelsLibrary.csproj", "{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x64 = Debug|x64
 		Debug|Any CPU = Debug|Any CPU
-		Release|x64 = Release|x64
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{7E815BB4-E621-492D-8601-ACE1DB49FCEC}.Debug|Any CPU.ActiveCfg = Debug|x64
@@ -29,6 +31,14 @@ Global
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|x64.ActiveCfg = Release|Any CPU
 		{B8666947-2959-42B9-AF98-E0140C532ADE}.Release|x64.Build.0 = Release|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Debug|x64.Build.0 = Debug|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|x64.ActiveCfg = Release|Any CPU
+		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
