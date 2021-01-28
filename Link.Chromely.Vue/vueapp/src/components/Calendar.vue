@@ -109,11 +109,13 @@
     <!-- ============================================================== -->
 </template>
 
-<script>
-export default {
-  name: 'Calendar'
-}
+<script lang="ts">
+    import { Component, Prop, Vue } from 'vue-property-decorator';
 
+    @Component
+    export default class Calendar extends Vue {
+
+    }
 </script>
 
 <style>
