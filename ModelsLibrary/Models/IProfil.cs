@@ -10,5 +10,7 @@ namespace ModelsLibrary.Models
         string Nom { get; set; }
         int Phone { get; set; }
         string Prenom { get; set; }
+
+        public void ChercherProfil();
     }
 }

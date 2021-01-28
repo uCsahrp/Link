@@ -8,5 +8,14 @@ namespace ModelsLibrary.Models
     {
         public string Path { get; set; }
         public bool Approuve { get; set; }
+        public Justification()
+        {
+
+        }
+
+        public void Upload()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

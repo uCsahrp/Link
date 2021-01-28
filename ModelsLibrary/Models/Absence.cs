@@ -8,5 +8,15 @@ namespace ModelsLibrary.Models
     {
         public int Duree { get; set; }
         public bool Justification { get; set; }
+
+        public Absence()
+        {
+
+        }
+
+        public void CalculerDuree()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

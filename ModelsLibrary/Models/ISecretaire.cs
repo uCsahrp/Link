@@ -2,6 +2,6 @@
 {
     interface ISecretaire
     {
-        int MyProperty { get; set; }
+        public void ApprouverJustif();
     }
 }

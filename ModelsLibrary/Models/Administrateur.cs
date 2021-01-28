@@ -4,7 +4,20 @@ using System.Text;
 
 namespace ModelsLibrary.Models
 {
-    class Administrateur
+    public class Administrateur : IAdministrateur
     {
+        public Administrateur()
+        {
+
+        }
+        public void AssignerRole()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CreerCompte()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

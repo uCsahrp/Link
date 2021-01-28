@@ -6,5 +6,7 @@ namespace ModelsLibrary.Models
     {
         DateTime DateEntree { get; set; }
         string Promotion { get; set; }
+
+        public void DeposerJustif();
     }
 }

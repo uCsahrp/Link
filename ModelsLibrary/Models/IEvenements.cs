@@ -7,5 +7,7 @@ namespace ModelsLibrary.Models
         DateTime EndAt { get; set; }
         DateTime StartAt { get; set; }
         string Subject { get; set; }
+
+        public void AjouterEvenement();
     }
 }

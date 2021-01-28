@@ -6,6 +6,13 @@ namespace ModelsLibrary.Models
 {
     class Secretaire : Profil, ISecretaire
     {
-        public int MyProperty { get; set; }
+        public Secretaire()
+        {
+
+        }
+        public void ApprouverJustif()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,5 +6,8 @@
         string Email { get; set; }
         string Password { get; set; }
         string UserNAme { get; set; }
+
+        public void LogIn();
+        public void LogOut();
     }
 }

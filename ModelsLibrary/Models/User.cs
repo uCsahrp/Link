@@ -11,5 +11,19 @@ namespace ModelsLibrary.Models
         public string Email { get; set; }
         public int Access { get; set; }
 
+        public User()
+        {
+
+        }
+
+        public void LogIn()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void LogOut()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -6,6 +6,13 @@ namespace ModelsLibrary.Models
 {
     public class Coach : Profil, ICoach
     {
-        public int MyProperty { get; set; }
+        public Coach()
+        {
+
+        }
+        public void Pointage()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

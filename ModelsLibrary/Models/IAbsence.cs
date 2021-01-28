@@ -4,5 +4,6 @@
     {
         int Duree { get; set; }
         bool Justification { get; set; }
+        public void CalculerDuree();
     }
 }

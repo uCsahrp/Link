@@ -2,6 +2,6 @@
 {
     public interface ICoach
     {
-        int MyProperty { get; set; }
+        public void Pointage();
     }
 }

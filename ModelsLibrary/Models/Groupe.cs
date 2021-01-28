@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ModelsLibrary.Models
 {
-    public class Groupe : IGroupe
+    public class Groupe : Classe, IGroupe
     {
         public string GroupeLibelle { get; set; }
         public string Section { get; set; }

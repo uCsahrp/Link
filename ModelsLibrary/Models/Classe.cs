@@ -12,5 +12,10 @@ namespace ModelsLibrary.Models
         {
             apprenants = new List<IApprenant>();
         }
+
+        public void CreerGroupes()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

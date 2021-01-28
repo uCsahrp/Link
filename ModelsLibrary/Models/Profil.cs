@@ -12,5 +12,14 @@ namespace ModelsLibrary.Models
         public string Adresse { get; set; }
         public DateTime Naissance { get; set; }
         public int Phone { get; set; }
+        public Profil()
+        {
+
+        }
+
+        public void ChercherProfil()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

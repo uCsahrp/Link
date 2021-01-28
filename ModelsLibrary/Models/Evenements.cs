@@ -15,5 +15,10 @@ namespace ModelsLibrary.Models
         {
 
         }
+
+        public void AjouterEvenement()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

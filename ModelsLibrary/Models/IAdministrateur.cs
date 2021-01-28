@@ -4,7 +4,9 @@ using System.Text;
 
 namespace ModelsLibrary.Models
 {
-    interface IAdministrateur
+   public interface IAdministrateur
     {
+        public void CreerCompte();
+        public void AssignerRole();
     }
 }
