@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelsLibrary", "ModelsLibrary\ModelsLibrary.csproj", "{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsLibrary", "ModelsLibrary\ModelsLibrary.csproj", "{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Prototype", "Link.Chromely.Prototype\Link.Chromely.Prototype.csproj", "{BB26E99B-40A6-4979-8FDC-9A75789809E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,12 @@ Global
 		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|x64.ActiveCfg = Release|Any CPU
 		{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}.Release|x64.Build.0 = Release|Any CPU
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Debug|x64.ActiveCfg = Debug|x64
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Debug|x64.Build.0 = Debug|x64
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Release|Any CPU.ActiveCfg = Release|x64
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Release|x64.ActiveCfg = Release|x64
+		{BB26E99B-40A6-4979-8FDC-9A75789809E8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
