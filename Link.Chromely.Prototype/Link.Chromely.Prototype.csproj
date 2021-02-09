@@ -21,6 +21,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="app\Content\img\**" />
+    <EmbeddedResource Remove="app\Content\img\**" />
+    <None Remove="app\Content\img\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Chromely" Version="5.1.86" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.5" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
@@ -33,64 +39,82 @@
     <None Update="appsettings.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="app\Content\css\nav_style.css">
+    <None Update="app\chromely.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="app\index_draggable.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\index_frameless.html">
+    <None Update="app\Content\assets\libs\flot\css\float-chart.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="app\index.html">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="app\Content\css\bootstrap.min.css">
+	  <None Update="app\pages\calendar.html">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+    <None Update="app\Content\dist\css\style.min.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="app\Content\img\chromely.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	<None Update="app\Content\assets\libs\jquery\dist\jquery.min.js">
+	  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Update="app\Content\img\chromely_gray.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\Content\js\bootstrap.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\Content\js\jquery.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\Content\js\popper.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\Content\js\tether.min.js">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\ajaxdemo.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\home.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\javascriptdemo.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\boundobjectdemo.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\messagerouterdemo.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\tmdbmovies.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Update="app\pages\todolist.html">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+	  <None Update="app\Content\assets\libs\popper.js\dist\umd\popper.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\assets\libs\bootstrap\dist\js\bootstrap.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\assets\libs\perfect-scrollbar\dist\perfect-scrollbar.jquery.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\assets\extra-libs\sparkline\sparkline.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\dist\js\waves.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\dist\js\sidebarmenu.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\dist\js\custom.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  
+	  <None Update="app\Content\assets\libs\moment\min\moment.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\assets\libs\fullcalendar\dist\fullcalendar.min.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="app\Content\dist\js\pages\calendar\cal-init.js">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  
     <None Update="chromely.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="app\Content\images\custom-select.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+	<None Update="app\Content\images\favicon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\Content\images\logo.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\Content\images\logo-icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="app\Content\images\logo-text.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
+	
+
+	<ItemGroup>
+		<Content Include="app\Content\**\**\*.*">
+			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 
 
 </Project>
