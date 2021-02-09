@@ -20,6 +20,15 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <!-- ============================================================== -->
+    <!-- All Jquery -->
+    <!-- ============================================================== -->
+    <script src="Content/assets/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap tether Core JavaScript -->
+    <script src="Content/assets/libs/popper.js/dist/umd/popper.min.js"></script>
+    <script src="Content/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="Content/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
+    <script src="Content/assets/extra-libs/sparkline/sparkline.js"></script>
     <script>
         $(document).ready(function () {
 
@@ -103,14 +112,14 @@
                         <b class="logo-icon p-l-10">
                             <!--You can put here icon as well // <i class="wi wi-sunset"></i> //-->
                             <!-- Dark Logo icon -->
-                            <img src="Content/public/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
+                            <img src="Content/assets/images/logo-icon.png" alt="homepage" class="light-logo" />
 
                         </b>
                         <!--End Logo icon -->
                         <!-- Logo text -->
                         <span class="logo-text">
                             <!-- dark Logo text -->
-                            <img src="Content/public/assets/images/logo-text.png" alt="homepage" class="light-logo" />
+                            <img src="Content/assets/images/logo-text.png" alt="homepage" class="light-logo" />
 
                         </span>
                         <!-- Logo icon -->
@@ -247,7 +256,7 @@
                         <!-- User profile and search -->
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Content/public/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark pro-pic" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Content/assets/images/users/1.jpg" alt="user" class="rounded-circle" width="31"></a>
                             <div class="dropdown-menu dropdown-menu-right user-dd animated">
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="ti-user m-r-5 m-l-5"></i> My Profile</a>
                                 <a class="dropdown-item" href="javascript:void(0)"><i class="ti-wallet m-r-5 m-l-5"></i> My Balance</a>
@@ -271,16 +280,16 @@
         <!-- ============================================================== -->
         <!-- Left Sidebar - style you can find in sidebar.scss  -->
         <!-- ============================================================== -->
-        <aside class="left-sidebar" data-sidebarbg="skin5" id="nav-content">
+        <aside class="left-sidebar" data-sidebarbg="skin5">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
-                <nav class="sidebar-nav">
+                <div class="sidebar-nav" id="nav-content">
                     <ul id="sidebarnav" class="p-t-30">
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Analytics</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#calendar" data-url="./pages/calendar.html" aria-expanded="false"><i class="mdi mdi-calendar-check"></i><span class="hide-menu">Calendar</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Learners</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#javascriptdemo" data-url="./pages/javascriptdemo.html" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Learners</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-message-outline"></i><span class="hide-menu">Chat</span></a></li>
                         <li class="sidebar-item">
                             <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
@@ -295,13 +304,13 @@
                     <!-- ============================================================== -->
                     <!-- footer -->
                     <!-- ============================================================== -->
-                    <footer class="footer text-center bot">
+                    <!--<footer class="footer text-center bot">
                         All Rights Reserved by <a href="https://github.com/uCsahrp/Link">Link</a>.
-                    </footer>
+                    </footer>-->
                     <!-- ============================================================== -->
                     <!-- End footer -->
                     <!-- ============================================================== -->
-                </nav>
+                </div>
                 <!-- End Sidebar navigation -->
             </div>
             <!-- End Sidebar scroll-->
@@ -325,12 +334,6 @@
     <!-- ============================================================== -->
     <!-- All Jquery -->
     <!-- ============================================================== -->
-    <script src="Content/assets/libs/jquery/dist/jquery.min.js"></script>
-    <!-- Bootstrap tether Core JavaScript -->
-    <script src="Content/assets/libs/popper.js/dist/umd/popper.min.js"></script>
-    <script src="Content/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="Content/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
-    <script src="Content/assets/extra-libs/sparkline/sparkline.js"></script>
     <!--Wave Effects -->
     <script src="Content/dist/js/waves.js"></script>
     <!--Menu sidebar -->
