@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Vue", "Link.C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.XUnit", "Link.XUnit\Link.XUnit.csproj", "{B8666947-2959-42B9-AF98-E0140C532ADE}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelsLibrary", "ModelsLibrary\ModelsLibrary.csproj", "{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Model", "ModelsLibrary\Link.Model.csproj", "{7F8927AC-024C-41E9-8E8A-57C7D1CFA769}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Link.Chromely.Prototype", "Link.Chromely.Prototype\Link.Chromely.Prototype.csproj", "{BB26E99B-40A6-4979-8FDC-9A75789809E8}"
 EndProject

@@ -27,7 +27,7 @@ namespace ModelsLibrary.Utilities
         /// </returns>
         public List<T> LoadData<T>(string sql)
         {
-            using (IDbConnection cn = new System.Data.SqlClient.SqlConnection(LoadConnectionString()))
+            using (IDbConnection cn = new SqlConnection(LoadConnectionString()))
             {
                 var output = cn.Query<T>(sql, new DynamicParameters()).ToList();
                 return output;
@@ -42,6 +42,15 @@ namespace ModelsLibrary.Utilities
 
         //    return output;
         //}
+
+        public List<T> LoadData<T, U>(string sql, U paramaters)
+        {
+            using (IDbConnection cn = new System.Data.SqlClient.SqlConnection(LoadConnectionString()))
+            {
+                var output = cn.Query<T>(sql, paramaters).ToList();
+                return output;
+            }
+        }
 
         #endregion
 
