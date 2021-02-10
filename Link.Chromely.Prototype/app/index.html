@@ -29,6 +29,12 @@
     <script src="Content/assets/libs/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="Content/assets/libs/perfect-scrollbar/dist/perfect-scrollbar.jquery.min.js"></script>
     <script src="Content/assets/extra-libs/sparkline/sparkline.js"></script>
+    <!--Wave Effects -->
+    <script src="Content/dist/js/waves.js"></script>
+    <!--Menu sidebar -->
+    <script src="Content/dist/js/sidebarmenu.js"></script>
+    <!--Custom JavaScript -->
+    <script src="Content/dist/js/custom.min.js"></script>
     <script>
         $(document).ready(function () {
 
@@ -47,38 +53,6 @@
             link.href = url;
             document.body.appendChild(link);
             link.click();
-        }
-    </script>
-    <script>
-        // Custom dialogs
-        function showCustomAlert(message) {
-            bootbox.alert(message);
-        }
-
-        function showCustomConfirm(message) {
-            bootbox.confirm(message, function (result) {
-                console.log(result);
-            })
-        }
-
-        function showCustomPrompt(message) {
-            bootbox.prompt(message, function (result) {
-                console.log(result);
-            });
-        }
-
-        function showCustomPopupDialog(title, url) {
-            bootbox.dialog({
-                title: title,
-                message: "<iframe src='" + url + "' style='resize: vertical; overflow: both; height: 400px;' width='100%' height='100%' frameborder='0' allowfullscreen />",
-                size: 'large',
-                buttons: {
-                    cancel: {
-                        label: "Close",
-                        className: 'btn-secondary',
-                    }
-                }
-            });
         }
     </script>
 </head>
@@ -156,10 +130,10 @@
                                 <span class="d-block d-md-none"><i class="fa fa-plus"></i></span>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Event</a>
+                                <a class="dropdown-item" href="#">Quiz</a>
                                 <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">Setting</a>
                             </div>
                         </li>
                         <!-- ============================================================== -->
@@ -184,10 +158,8 @@
                                 <i class="mdi mdi-bell font-24"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item" href="#">Notification</a>
+                                <a class="dropdown-item" href="#">Another notification</a>
                             </div>
                         </li>
                         <!-- ============================================================== -->
@@ -207,20 +179,20 @@
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="link border-top">
                                                 <div class="d-flex no-block align-items-center p-10">
-                                                    <span class="btn btn-success btn-circle"><i class="ti-calendar"></i></span>
+                                                    <span class="btn btn-success btn-circle"><i class="ti-user"></i></span>
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Event today</h5>
-                                                        <span class="mail-desc">Just a reminder that event</span>
+                                                        <h5 class="m-b-0">Rael Jean-Foutre</h5>
+                                                        <span class="mail-desc">Hello</span>
                                                     </div>
                                                 </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="link border-top">
                                                 <div class="d-flex no-block align-items-center p-10">
-                                                    <span class="btn btn-info btn-circle"><i class="ti-settings"></i></span>
+                                                    <span class="btn btn-info btn-circle"><i class="ti-user"></i></span>
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Settings</h5>
-                                                        <span class="mail-desc">You can customize this template</span>
+                                                        <h5 class="m-b-0">Sandrine Dupont</h5>
+                                                        <span class="mail-desc">Comment va ta progression ?</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -229,18 +201,18 @@
                                                 <div class="d-flex no-block align-items-center p-10">
                                                     <span class="btn btn-primary btn-circle"><i class="ti-user"></i></span>
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Pavan kumar</h5>
-                                                        <span class="mail-desc">Just see the my admin!</span>
+                                                        <h5 class="m-b-0">Pavan Kumar</h5>
+                                                        <span class="mail-desc">Hello !!</span>
                                                     </div>
                                                 </div>
                                             </a>
                                             <!-- Message -->
                                             <a href="javascript:void(0)" class="link border-top">
                                                 <div class="d-flex no-block align-items-center p-10">
-                                                    <span class="btn btn-danger btn-circle"><i class="fa fa-link"></i></span>
+                                                    <span class="btn btn-danger btn-circle"><i class="ti-user"></i></span>
                                                     <div class="m-l-10">
-                                                        <h5 class="m-b-0">Luanch Admin</h5>
-                                                        <span class="mail-desc">Just see the my new admin!</span>
+                                                        <h5 class="m-b-0">Luanch Kabil</h5>
+                                                        <span class="mail-desc">gg!</span>
                                                     </div>
                                                 </div>
                                             </a>
@@ -286,10 +258,10 @@
                 <!-- Sidebar navigation-->
                 <div class="sidebar-nav" id="nav-content">
                     <ul id="sidebarnav" class="p-t-30">
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#home" data-url="./pages/home.html" aria-expanded="false"><i class="mdi mdi-view-dashboard"></i><span class="hide-menu">Dashboard</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-chart-bar"></i><span class="hide-menu">Analytics</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#calendar" data-url="./pages/calendar.html" aria-expanded="false"><i class="mdi mdi-calendar-check"></i><span class="hide-menu">Calendar</span></a></li>
-                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#javascriptdemo" data-url="./pages/javascriptdemo.html" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Learners</span></a></li>
+                        <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-face"></i><span class="hide-menu">Learners</span></a></li>
                         <li class="sidebar-item"> <a class="sidebar-link waves-effect waves-dark sidebar-link" href="#" aria-expanded="false"><i class="mdi mdi-message-outline"></i><span class="hide-menu">Chat</span></a></li>
                         <li class="sidebar-item">
                             <a class="sidebar-link has-arrow waves-effect waves-dark" href="javascript:void(0)" aria-expanded="false"><i class="mdi mdi-move-resize-variant"></i><span class="hide-menu">Addons </span></a>
@@ -322,7 +294,7 @@
         <!-- Page wrapper  -->
         <!-- ============================================================== -->
         <div class="page-wrapper">
-            <h1 class="title">Home</h1>
+            <iframe id="demoframe" name="alldemoframe" src="./pages/home.html" width="100%" height="800" frameborder="0" allowfullscreen />
         </div>
         <!-- ============================================================== -->
         <!-- End Page wrapper  -->
@@ -331,25 +303,5 @@
     <!-- ============================================================== -->
     <!-- End Wrapper -->
     <!-- ============================================================== -->
-    <!-- ============================================================== -->
-    <!-- All Jquery -->
-    <!-- ============================================================== -->
-    <!--Wave Effects -->
-    <script src="Content/dist/js/waves.js"></script>
-    <!--Menu sidebar -->
-    <script src="Content/dist/js/sidebarmenu.js"></script>
-    <!--Custom JavaScript -->
-    <script src="Content/dist/js/custom.min.js"></script>
-    <!--This page JavaScript -->
-    <!-- <script src="../../dist/js/pages/dashboards/dashboard1.js"></script> -->
-    <!-- Charts js Files -->
-    <!--<script src="Content/assets/libs/flot/excanvas.js"></script>
-    <script src="Content/assets/libs/flot/jquery.flot.js"></script>
-    <script src="Content/assets/libs/flot/jquery.flot.pie.js"></script>
-    <script src="Content/assets/libs/flot/jquery.flot.time.js"></script>
-    <script src="Content/assets/libs/flot/jquery.flot.stack.js"></script>
-    <script src="Content/assets/libs/flot/jquery.flot.crosshair.js"></script>
-    <script src="Content/assets/libs/flot.tooltip/js/jquery.flot.tooltip.min.js"></script>
-    <script src="Content/dist/js/pages/chart/chart-page-init.js"></script>-->
 </body>
 </html>
