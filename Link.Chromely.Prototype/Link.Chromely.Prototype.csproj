@@ -45,6 +45,9 @@
 	  <None Update="app\pages\calendar.html">
 		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
 	  </None>
+	  <None Update="app\pages\chat.html">
+		  <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
   </ItemGroup>
 	
 
